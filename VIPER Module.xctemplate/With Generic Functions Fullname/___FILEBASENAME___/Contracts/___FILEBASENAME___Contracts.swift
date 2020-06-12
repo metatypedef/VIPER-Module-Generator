@@ -17,8 +17,8 @@ import UIKit
 /// ___VARIABLE_productName:identifier___ Module View Protocol
 protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
     // Update UI with value returned.
-    /// Set the view Object of Type ___VARIABLE_productName:identifier___Entity
-    func set(object: ___VARIABLE_productName:identifier___Entity)
+    /// Set the view Object of Type View___VARIABLE_productName:identifier___Entity
+    func set(object: View___VARIABLE_productName:identifier___Entity)
 }
 
 //MARK: Interactor -

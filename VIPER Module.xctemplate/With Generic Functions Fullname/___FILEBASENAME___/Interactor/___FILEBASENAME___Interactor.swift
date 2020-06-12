@@ -10,5 +10,10 @@ import UIKit
 
 /// ___VARIABLE_productName:identifier___ Module Interactor
 class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorProtocol {
+    
+    // Fetch Object from Data Layer
+    func fetch(objectFor presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
+        
+    }
 
 }

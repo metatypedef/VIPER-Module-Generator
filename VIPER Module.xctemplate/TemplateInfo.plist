@@ -20,6 +20,19 @@
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___/Router/___FILEBASENAME___Router.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___/Router/___FILEBASENAME___Router.swift</string>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+				<string>Router</string>
+			</array>
+		</dict>
+	</dict>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -42,38 +55,38 @@
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>RequiredOptions</key>
-      <dict>
-        <key>templateType</key>
-        <array>
+			<dict>
+				<key>templateType</key>
+				<array>
 					<string>With Generic Functions Fullname</string>
 					<string>With Generic Functions</string>
-	        <string>Without Generic Functions</string>
-        </array>
-      </dict>
+					<string>Without Generic Functions</string>
+				</array>
+			</dict>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
 		<dict>
-      <key>Identifier</key>
-      <string>templateType</string>
-      <key>Required</key>
-      <true/>
-      <key>Name</key>
-      <string>Template type:</string>
-      <key>Description</key>
-      <string>The type of template to use</string>
-      <key>Type</key>
-      <string>popup</string>
-      <key>Default</key>
-      <string>With Generic Functions Fullname</string>
-      <key>Values</key>
-      <array>
+			<key>Identifier</key>
+			<string>templateType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Template type:</string>
+			<key>Description</key>
+			<string>The type of template to use</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>With Generic Functions Fullname</string>
+			<key>Values</key>
+			<array>
 				<string>With Generic Functions Fullname</string>
-        <string>With Generic Functions</string>
-        <string>Without Generic Functions</string>
+				<string>With Generic Functions</string>
+				<string>Without Generic Functions</string>
 				<string>Create BaseViewProtocol</string>
-      </array>
-    </dict>
+			</array>
+		</dict>
 	</array>
 	<key>Template Author</key>
 	<string>Qutaibah Essa &amp; Mohamad Kaakati - @Qutibah / @Kaakati</string>
