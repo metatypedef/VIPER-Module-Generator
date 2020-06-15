@@ -8,6 +8,12 @@
 
 import UIKit
 
+//MARK: View Events -
+/// ___VARIABLE_productName:identifier___ Module View Events
+enum ___VARIABLE_productName:identifier___ViewEvent {
+    
+}
+
 //MARK: View -
 /*
  Should replace "class" with "BaseViewProtocol" if available;
@@ -33,8 +39,13 @@ protocol ___VARIABLE_productName:identifier___InteractorProtocol {
 protocol ___VARIABLE_productName:identifier___PresenterProtocol {
     /// The presenter will fetch data from the Interactor thru implementing the Interactor fetch function.
     func fetch(objectFor view: ___VARIABLE_productName:identifier___ViewProtocol)
+    
+    /// The presenter will update its state with event
+    func update(withEvent event: ___VARIABLE_productName:identifier___ViewEvent)
+    
     /// The Interactor will inform the Presenter a successful fetch.
     func interactor(_ interactor: ___VARIABLE_productName:identifier___InteractorProtocol, didFetch object: ___VARIABLE_productName:identifier___Entity)
+    
     /// The Interactor will inform the Presenter a failed fetch.
     func interactor(_ interactor: ___VARIABLE_productName:identifier___InteractorProtocol, didFailWith error: Error)
 }

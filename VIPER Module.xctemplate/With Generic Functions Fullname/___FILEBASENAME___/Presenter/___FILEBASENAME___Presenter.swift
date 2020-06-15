@@ -31,6 +31,11 @@ extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productNam
         
     }
     
+    /// The presenter will update its state with event
+    func update(withEvent event: ___VARIABLE_productName:identifier___ViewEvent) {
+        
+    }
+    
     /// The Interactor will inform the Presenter a successful fetch.
     func interactor(_ interactor: ___VARIABLE_productName:identifier___InteractorProtocol, didFetch object: ___VARIABLE_productName:identifier___Entity) {
         
