@@ -6,7 +6,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 /// ___VARIABLE_productName:identifier___ Module Entity
 struct ___VARIABLE_productName:identifier___Entity {
